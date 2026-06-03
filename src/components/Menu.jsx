@@ -4,37 +4,37 @@ const menuler = [
   {
     id: 1,
     isim: "YENİ! Kore",
-    resim: "images/Kore.png",
+    resim: "/images/Kore.png",
     altText: "Kore",
   },
   {
     id: 2,
     isim: "Pizza",
-    resim: "images/Pizza.png",
+    resim: "/images/Pizza.png",
     altText: "Pizza",
   },
   {
     id: 3,
     isim: "Burger",
-    resim: "images/Burger.png",
+    resim: "/images/Burger.png",
     altText: "Burger",
   },
   {
     id: 4,
     isim: "Kızartmalar",
-    resim: "images/Fries.png",
+    resim: "/images/Fries.png",
     altText: "Kızartmalar",
   },
   {
     id: 5,
     isim: "Fast food",
-    resim: "images/Fast-food.png",
+    resim: "/images/Fast-food.png",
     altText: "Fast food",
   },
   {
     id: 6,
     isim: "Gazlı İçecek",
-    resim: "images/Soda.png",
+    resim: "/images/Soda.png",
     altText: "Soda",
   },
 ];

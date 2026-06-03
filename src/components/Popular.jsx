@@ -5,7 +5,7 @@ const pizzaData = [
   {
     id: 1,
     isim: "Terminal Pizza",
-    resim: "./public/images/Terminal-pizza.png",
+    resim: "/images/Terminal-pizza.png",
     puan: "4.9",
     yorumSayisi: 200,
     fiyat: 60,
@@ -13,7 +13,7 @@ const pizzaData = [
   {
     id: 2,
     isim: "Position Absolute Acı Pizza",
-    resim: "./public/images/Aci-pizza.png",
+    resim: "/images/Aci-pizza.png",
     puan: "4.9",
     yorumSayisi: 200,
     fiyat: 60,
@@ -21,7 +21,7 @@ const pizzaData = [
   {
     id: 3,
     isim: "useEffect Tavuklu Burger",
-    resim: "./public/images/Tavuk-burger.png",
+    resim: "/images/Tavuk-burger.png",
     puan: "4.9",
     yorumSayisi: 200,
     fiyat: 60,

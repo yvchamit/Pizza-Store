@@ -22,13 +22,13 @@ function Hero() {
                 <div className="right-card top-card">
                   <h3>Hackathlon<br/>Burger Menü</h3>
                   <button className="hero-section_order-btn" onClick={() => history.push("/pizza")} >SİPARİŞ VER</button>
-                  <img src="./public/images/Adv-burger.png" alt="İlgili Ürün"/>
+                  <img src="/images/Adv-burger.png" alt="İlgili Ürün"/>
                 </div>
 
                 <div className="right-card bottom-card">
                   <h3><span>Çoooook</span> hızlı<br/>npm gibi kurye</h3>
                   <button className="hero-section_order-btn" onClick={() => history.push("/pizza")} >SİPARİŞ VER</button>
-                  <img src="./public/images/Adv-kurye.png" alt="İlgili Ürün"/> 
+                  <img src="/images/Adv-kurye.png" alt="İlgili Ürün"/> 
                 </div>
               </div>
             </div>

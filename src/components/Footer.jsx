@@ -31,7 +31,7 @@ function Footer() {
 
           <address className="contact-info">
             <div className="contact-item">
-              <img src="./public/images/location.png" alt="" />
+              <img src="/images/location.png" alt="" />
               <span>
                 341 Londonderry Road
                 <br />
@@ -40,14 +40,14 @@ function Footer() {
             </div>
 
             <div className="contact-item">
-              <img src="./public/images/Envelope.png" alt="" />
+              <img src="/images/Envelope.png" alt="" />
               <a href="mailto:aciktim@teknolojikyemekler.com">
                 aciktim@teknolojikyemekler.com
               </a>
             </div>
 
             <div className="contact-item">
-              <img src="./public/images/phone.png" alt="" />
+              <img src="/images/phone.png" alt="" />
               <a href="tel:+902161234567">+90 216 123 45 67</a>
             </div>
           </address>
@@ -91,7 +91,7 @@ function Footer() {
                 href="https://twitter.com/teknolojikyemekler"
                 aria-label="Twitter"
               >
-                <img src="./public/images/Twitter.svg" alt="Twitter" />
+                <img src="/images/Twitter.svg" alt="Twitter" />
               </a>
             </li>
           </ul>
