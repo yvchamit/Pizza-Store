@@ -1,9 +1,9 @@
 .header {
     background-image:
-    url('../public/images/Pizza-decor.png'),
-    url('../public/images/Header-pizza.png'),
-    url('../public/images/Header-right.png'),
-    url('../public/images/Header-left.png');
+    url('/images/Pizza-decor.png'),
+    url('/images/Header-pizza.png'),
+    url('/images/Header-right.png'),
+    url('/images/Header-left.png');
     
     background-repeat: no-repeat;
     background-position: center bottom 3rem, center bottom, right top, left bottom;
@@ -87,7 +87,7 @@ h1 {
     }
 
     .header {
-        background-image: url('.../public/images/Header-pizza.png');
+        background-image: url('/images/Header-pizza.png');
         background-repeat: no-repeat;
         background-position: center bottom;
     }

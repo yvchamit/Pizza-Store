@@ -22,7 +22,7 @@
     max-width: 550px; 
     min-width: 300px;
     aspect-ratio: 520 / 450;
-    background-image: url('../public/images/Adv-pizza.png');
+    background-image: url('/images/Adv-pizza.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 115%;
@@ -119,7 +119,7 @@
 
 .bottom-card {
     height: 260px;
-    background-image: url('../public/images/Adv-sehir.png');
+    background-image: url('/images/Adv-sehir.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto;
