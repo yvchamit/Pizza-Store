@@ -1,4 +1,4 @@
-/* global cy, describe, it, before, beforeEach */
+/* global cy, describe, it, beforeEach */
 
 describe("Teknolojik Yemekler - Pizza Sipariş Formu Testleri", () => {
   beforeEach(() => {
