@@ -16,7 +16,7 @@ const createPizzaOrder = (siparisData) => {
   });
 };
 
-function OrderPage() {
+function OrderPage(props) {
   const history = useHistory();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -62,14 +62,16 @@ function OrderPage() {
     createPizzaOrder(siparisData)
       .then((response) => {
         console.log("Sipariş Başarılı! Response:", response.data);
-        history.push({
-          pathname: "/success",
-          state: { siparis: siparisData },
-        });
+
+        props.setSiparis(response.data);
+
+        history.push("/success");
       })
       .catch((error) => {
         console.error("Hata:", error);
-        alert("Sipariş iletilemedi.");
+        alert(
+          "Siparişiniz iletilemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyiniz.",
+        );
       })
       .then(() => {
         setIsLoading(false);

@@ -1,11 +1,11 @@
 import React from "react";
 import Footer from "./Footer";
 import OrderDetailsCard from "./OrderDetailsCard";
+import { useHistory } from "react-router-dom/cjs/react-router-dom";
 
-function OrderSuccessPage(props) {
-  const history = props.history;
-
-  const siparis = props.history?.location?.state?.siparis;
+function OrderSuccessPage({ siparis }) {
+  console.log("Başarı Sayfasına Ulaşan Prop:", siparis);
+  const history = useHistory();
 
   return (
     <>

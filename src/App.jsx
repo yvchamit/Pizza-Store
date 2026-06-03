@@ -7,8 +7,11 @@ import Popular from "./components/Popular";
 import OrderPage from "./components/OrderPage";
 import { Switch, Route } from "react-router-dom";
 import OrderSuccessPage from "./components/OrderSuccessPage";
+import { useState } from "react";
 
 function App() {
+  const [siparis, setSiparis] = useState(null);
+
   return (
     <>
       <Switch>
@@ -22,9 +25,13 @@ function App() {
           <Footer />
         </Route>
 
-        <Route path="/pizza" component={OrderPage} />
+        <Route path="/pizza">
+          <OrderPage setSiparis={setSiparis} />
+        </Route>
 
-        <Route path="/success" component={OrderSuccessPage} />
+        <Route path="/success">
+          <OrderSuccessPage siparis={siparis} />
+        </Route>
       </Switch>
     </>
   );
