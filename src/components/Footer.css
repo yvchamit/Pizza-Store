@@ -1,0 +1,164 @@
+/* <-- FOOTER --> */
+
+footer {
+    background-color: #1A1A1A;
+    color: #FFF;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    color: #FFF;
+    line-height: 2.2;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 5rem 3rem 1.5rem;
+    gap: 1rem;
+}
+
+.footer-contact, .footer-menu, .footer-instagram {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1 1 220px;
+}
+
+.footer-logo {
+    font-family: "Londrina Solid";
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 400;
+    text-decoration-line: none;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+}
+
+footer address {
+    font-style: normal;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.footer-title {
+    font-family: 'Barlow';
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+footer a {
+    color:#FFF;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-instagram {
+    margin-bottom: 2rem;
+}
+
+.instagram-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-instagram .instagram-list li {
+    width: 30%;
+}
+
+/* <-- COPYRIGHT --> */
+
+.copyright-wrapper {
+    border-top: 1px solid #FFFFFF40;
+    padding: 1rem 3rem;
+}
+
+.copyright-container {
+    display: flex;
+    align-items: center;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.copyright-text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media (max-width: 900px) {
+
+    /* <!-- FOOTER --> */
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 7rem 7rem 3rem 7rem;
+        justify-content: center;
+    }
+
+    .footer-contact, .footer-menu, .footer-instagram {
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .footer-instagram .instagram-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-instagram .instagram-list li {
+        flex: 1 1 30%;
+        max-width: 30%;
+    }
+
+    .footer-instagram .instagram-list li img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .copyright-container {
+        padding: 1rem 15%;
+    }
+}

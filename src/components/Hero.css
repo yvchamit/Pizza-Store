@@ -1,0 +1,145 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+
+.left-card {
+    flex: 1 1 520px; 
+    max-width: 550px; 
+    min-width: 300px;
+    aspect-ratio: 520 / 450;
+    background-image: url('../public/images/Adv-pizza.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 115%;
+    background-color: #CE2829;
+    border-radius: 0.75rem;
+    position: relative;
+}
+
+.left-card-content {
+    padding: 2rem;
+}
+
+.left-card h2 {
+    font-family: 'Quattrocento';
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 0;
+    color: #FAF7F2;
+}
+
+.left-card p {
+    font-family: Barlow;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FAF7F2;
+}
+
+
+.right-cards {
+    flex: 1 1 520px; 
+    max-width: 520px;
+    min-width: 300px;
+    aspect-ratio: 520 / 450;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.right-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-cards h3 {
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.hero-section_order-btn {
+    display: flex;
+    border: none;
+    width: 150px;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    color: #CE2829;
+    font-family: 'Barlow';
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-section_order-btn:hover {
+    transform: scale(1.05);
+}
+
+.top-card {
+    background-color: #292929;
+    height: 260px;
+    border-radius: 0.75rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.top-card img {
+    position: absolute;
+    bottom: 15%;
+    width: 80%;
+    left: 15%;
+}
+
+.bottom-card {
+    height: 260px;
+    background-image: url('../public/images/Adv-sehir.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    background-color: #FFEECC;
+    padding-left: 2rem;
+    position: relative;
+    border-radius: 0.75rem;
+}
+
+.bottom-card span {
+    color: #CE2829;
+}
+
+.bottom-card h3 {
+    color:#292929;
+}
+
+.bottom-card img {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+export const MALZEME_LISTESI = [
+  { id: "top-1", isim: "Pepperoni", value: "pepperoni" },
+  { id: "top-2", isim: "Sosis", value: "sosis" },
+  { id: "top-3", isim: "Kanada Jambonu", value: "kanada_jambonu" },
+  { id: "top-4", isim: "Tavuk Izgara", value: "tavuk_izgara" },
+  { id: "top-5", isim: "Soğan", value: "sogan" },
+  { id: "top-6", isim: "Domates", value: "domates" },
+  { id: "top-7", isim: "Mısır", value: "misir" },
+  { id: "top-8", isim: "Mantar", value: "mantar" },
+  { id: "top-9", isim: "Jalapeno", value: "jalapeno" },
+  { id: "top-10", isim: "Sarımsak", value: "sarimsak" },
+  { id: "top-11", isim: "Biber", value: "biber" },
+  { id: "top-12", isim: "Sucuk", value: "sucuk" },
+  { id: "top-13", isim: "Ananas", value: "ananas" },
+  { id: "top-14", isim: "Kabak", value: "kabak" },
+];

@@ -1,0 +1,137 @@
+.title-area {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mobile-active {
+    display: none;
+}
+ 
+.title-area p {
+    margin: 0 0 0.5rem 0;
+    color: #CE2829;
+    font-family: Satisfy;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.title-area h2 {
+    color: #292929;
+    font-family: Barlow;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top:0.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+}
+
+.button-group {
+    display: flex;
+    margin: 0;
+    padding: 0 5rem;
+    width: 90%;
+    max-width: 1080px;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.category-btn {
+    border: none;
+    outline: none;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 20px 20px;
+    border-radius: 50px;
+    gap: 0.75rem;
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: black;
+}
+
+.category-btn img {
+    width: 2.25rem;
+    height: auto;
+}
+
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding-top: 0.75rem;
+    padding-bottom: 5rem;
+}
+
+.menu-card {
+    background-color: #FFF; 
+    padding: 1.75rem;
+    border-radius: 0.75rem;
+    max-width: 290px;
+    text-align: center;
+}
+
+.menu-card img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-card h3 {
+    text-align: left;
+    color: #292929;
+    font-family: Barlow;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.menu-card .meta {
+    display: flex;
+    gap: 5rem;
+    width: 100%;
+    color: #292929BF;
+    font-family: Barlow;
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.meta span {
+    margin-left: auto;
+}
+
+.meta .price {
+    color: #292929;
+    font-family: 'Barlow';
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+
+
+    /* <!-- CATEGORY --> */
+
+    .mobile-active {
+        display: block;
+    }
+
+    .button-group{
+        padding: 0 5rem;
+    }
+}
